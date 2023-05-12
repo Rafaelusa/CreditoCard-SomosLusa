@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  background-color: #272727;
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  margin: 0 auto;
+  max-width: 34rem;
+  width: 90%;
+}
+
+input{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font: inherit;
+  width: auto;
+}
+
+input::placeholder{
+  color: #fff;
+}
+
+label{
+  display: block;
+}
+
+.card{
+  background: rgb(23,111,31);
+  background: linear-gradient(220deg, rgba(23,111,31,1) 25%, rgba(255,0,0,0.8) 50%);
+  border-right: 4px solid red;
+  border-bottom: 4px solid green;
+  border-left: 4px solid green;
+  border-top: 4px solid white;
+  border-radius: 14px;
+  color: #bebebe;
+  padding: 50px 20px;
+  margin-bottom: 5px;
+}
+
+.header{
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-evenly;
+  align-self: center;
+}
+
+.logo{
+  flex-direction: row;
+  justify-content:  space-evenly;
+  align-self: center;
+}
+
+.title{
+  color: #fff;
+  float: left;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  float: right;
+}
+
+.row{
+  margin-bottom: 0;
+}
+/*.content{
+  padding: 24px;
+}*/
+.content input{
+  outline: none;
+}
+
+.card-number{
+  font-size: 32px;
+}
+
+.card-expire{
+  float: left;
+  border-bottom: 10px;
+}
+
+.card-expire input{
+  font-size: 0.9rem;
+}
+
+.card-expire-month{
+  width: 22%;
+}
+
+.card-expire-month, .card-expire-year{
+  float: left;
+}
+
+.card-cvv{
+  float: right;
+}
+
+.card-cvv input{
+  width: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.destaque{
+  color: green;
+  text-shadow: 1px 1px white;
+}
+
+.logo-lusa{
+  width:100px;
+  height: auto;
+  float: left;
+}
+
